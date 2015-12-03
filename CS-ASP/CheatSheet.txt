@@ -88,3 +88,28 @@ Statements must end in a semi-colon ;
 Whitespace is ignored (use for humans)
 
 
+Conditional if ... else if ... else Statement 
+=============================================
+= Assignment
+== Equality
+
+if (a==b)
+{
+	//this will execute if expression is true
+}
+else
+{
+	//this will execute if expression is false
+}
+
+... or ... evaluate other mutually exclusively options:
+
+if (a == b) {//some code}
+else if (a == c) {//some code}
+else if (a == d) {//some code}
+else {//some code}
+
+CheckBox Server Control = Checked prop is bool
+
+RadioButton Server Control = GroupName prop groups
+them together, check prop is bool
