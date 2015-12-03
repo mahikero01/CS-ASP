@@ -45,3 +45,14 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+CS-ASP.v12.suo
+*.suo
+CS-ASP/bin/CS-ASP.dll
+*.cache
+CS-ASP/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.pdb
+CS-ASP/obj/Debug/CS-ASP.dll
+*.config
+CS-ASP.v12.suo
+*.suo
+CS-ASP/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache

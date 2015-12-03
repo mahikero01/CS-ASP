@@ -1,0 +1,6 @@
+P:\SandBox\CS-ASP\CS-ASP\bin\CS-ASP.dll.config
+P:\SandBox\CS-ASP\CS-ASP\bin\CS-ASP.dll
+P:\SandBox\CS-ASP\CS-ASP\bin\CS-ASP.pdb
+P:\SandBox\CS-ASP\CS-ASP\obj\Debug\CS-ASP.csprojResolveAssemblyReference.cache
+P:\SandBox\CS-ASP\CS-ASP\obj\Debug\CS-ASP.dll
+P:\SandBox\CS-ASP\CS-ASP\obj\Debug\CS-ASP.pdb
