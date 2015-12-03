@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\PapaBob.png" />
     <Content Include="Assets\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -71,6 +72,7 @@
     <Content Include="Assets\phone.png" />
     <Content Include="Assets\tablet.png" />
     <Content Include="ChallengeConditionalRadioButton.aspx" />
+    <Content Include="ChallengeFirstPapaBobsWebsite.aspx" />
     <Content Include="ChallengeSimpleCalculator.aspx" />
     <Content Include="CheatSheet.txt" />
     <Content Include="CS-006.aspx" />
@@ -89,6 +91,13 @@
     </Compile>
     <Compile Include="ChallengeConditionalRadioButton.aspx.designer.cs">
       <DependentUpon>ChallengeConditionalRadioButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChallengeFirstPapaBobsWebsite.aspx.cs">
+      <DependentUpon>ChallengeFirstPapaBobsWebsite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChallengeFirstPapaBobsWebsite.aspx.designer.cs">
+      <DependentUpon>ChallengeFirstPapaBobsWebsite.aspx</DependentUpon>
     </Compile>
     <Compile Include="ChallengeSimpleCalculator.aspx.cs">
       <DependentUpon>ChallengeSimpleCalculator.aspx</DependentUpon>
