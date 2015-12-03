@@ -17,7 +17,7 @@ namespace cs_asp_011
         protected void Button1_Click(object sender, EventArgs e)
         {
             resultLabel.Text = "";
-
+            /*
             if (firstTextBox.Text == secondTextBox.Text)
             {
                 resultLabel.Text = "Yes ! they're equal";
@@ -25,6 +25,15 @@ namespace cs_asp_011
             else
             {
                 resultLabel.Text = "No ! they're not equal";
+            }*/
+
+            if (coolCheckBox.Checked)
+            {
+                resultLabel.Text = "Yes you are cool";
+            }
+            else
+            {
+                resultLabel.Text = "your harsh";
             }
         }
         

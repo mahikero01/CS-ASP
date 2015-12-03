@@ -16,6 +16,7 @@
         <asp:TextBox ID="secondTextBox" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp; ?<br />
         <br />
+        <asp:CheckBox ID="coolCheckBox" runat="server" Text="Are you cool?" />
         <br />
         <br />
         <br />
