@@ -43,9 +43,9 @@
         <br />
         <br />
         <br />
-        <asp:RadioButton ID="thinRadioButton" runat="server" Text="Thin Crust" />
+        <asp:RadioButton ID="thinRadioButton" runat="server" GroupName="CrustGroup" Text="Thin Crust" />
         <br />
-        <asp:RadioButton ID="deepRadioButton" runat="server" Checked="True" Text="Deep Dish" />
+        <asp:RadioButton ID="deepRadioButton" runat="server" Checked="True" GroupName="CrustGroup" Text="Deep Dish (+$2)" />
         <br />
         <br />
         <br />
@@ -55,7 +55,7 @@
         <br />
         <asp:CheckBox ID="greenCheckBox" runat="server" Text="Green Peppers ($0.50)" />
         <br />
-        <asp:CheckBox ID="CheckBox4" runat="server" Text="Red Peppers (+$0.75)" />
+        <asp:CheckBox ID="redCheckBox" runat="server" Text="Red Peppers (+$0.75)" />
         <br />
         <asp:CheckBox ID="anchoviesCheckBox" runat="server" Text="Anchovies (+ $2)" />
         <br />
@@ -65,7 +65,7 @@
         </span></span></strong><span class="auto-style5"><span class="auto-style4">Save $2.00 when you add Peperoni, Green Peppers and Anchovies OR Pepperoni, Red Peppers and Onions to your pizza.<br />
         <br />
         </span>
-        <asp:Button ID="purchaseButton" runat="server" Text="Purchase" />
+        <asp:Button ID="purchaseButton" runat="server" OnClick="purchaseButton_Click" Text="Purchase" />
         <br />
         <br />
         Total:&nbsp;&nbsp;&nbsp; </span>

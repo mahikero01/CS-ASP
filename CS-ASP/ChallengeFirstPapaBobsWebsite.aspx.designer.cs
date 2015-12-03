@@ -103,13 +103,13 @@ namespace CS_ASP {
         protected global::System.Web.UI.WebControls.CheckBox greenCheckBox;
         
         /// <summary>
-        /// CheckBox4 control.
+        /// redCheckBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox4;
+        protected global::System.Web.UI.WebControls.CheckBox redCheckBox;
         
         /// <summary>
         /// anchoviesCheckBox control.
