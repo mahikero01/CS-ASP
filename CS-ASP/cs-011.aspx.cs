@@ -25,7 +25,7 @@ namespace cs_asp_011
             else
             {
                 resultLabel.Text = "No ! they're not equal";
-            }*/
+            }
 
             if (coolCheckBox.Checked)
             {
@@ -34,7 +34,10 @@ namespace cs_asp_011
             else
             {
                 resultLabel.Text = "your harsh";
-            }
+            }*/
+
+
+
         }
         
     }
