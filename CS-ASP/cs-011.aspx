@@ -19,7 +19,12 @@
         <asp:CheckBox ID="coolCheckBox" runat="server" Text="Are you cool?" />
         <br />
         <br />
+        What food you eat<br />
+        <asp:RadioButton ID="pizzaRadioButton" runat="server" Text="Pizza" GroupName="FoodGroup" />
         <br />
+        <asp:RadioButton ID="saladRadioButton" runat="server" Text="Salad" GroupName="FoodGroup" />
+        <br />
+        <asp:RadioButton ID="pbjRadioButton" runat="server" Text="PBJ" GroupName="FoodGroup" />
         <br />
         <br />
         <br />

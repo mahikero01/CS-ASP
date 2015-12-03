@@ -36,9 +36,26 @@ namespace cs_asp_011
                 resultLabel.Text = "your harsh";
             }*/
 
+            if (pizzaRadioButton.Checked)
+            {
+                resultLabel.Text = "you got pizza";
+            }
+            else if (saladRadioButton.Checked)
+            {
+                resultLabel.Text = "you got Salad";
+            }
+            else if (pbjRadioButton.Checked)
+            {
+                resultLabel.Text = "you got PBJ";
+            }
+            else
+            {
+                resultLabel.Text = "No selection";
 
-
+            }
         }
+
+        
         
     }
 }
