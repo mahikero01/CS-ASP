@@ -164,4 +164,28 @@ together with the dot . operator
 myDate.AddHour(3).AddMinute(-5).ToString()
 
 
+Working with Spans of Time
+==========================
 
+Create and initialize new TimeSpans
+
+//Days.Hours:Minutes:Seconds.milliseconds
+TimeSpan myTimeSpan = TimeSpan.Parse("1.2:3:30.5");
+
+DateTime myBirthday = DateTime.Parse("1/5/1975");
+TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
+
+More info at http://is.gd/timespan
+
+Get individual parts
+myAge.Hours
+myAge.Seconds
+
+... get TOTAL elapse time
+as double representing both 
+the number of days / hours / etc.
+AND fractional values representing
+"left overs".
+
+myTimeSpan.TotalDays // double
+myTimeSpan.TotalHours // double
