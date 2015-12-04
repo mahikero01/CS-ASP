@@ -57,6 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\epic-spies-business-rules.txt" />
+    <Content Include="Assets\epic-spies-logo.jpg" />
+    <Content Include="Assets\EpicSpies-MockUp-1.png" />
+    <Content Include="Assets\EpicSpies-Mockup-2.png" />
+    <Content Include="Assets\EpicSpies-Mockup-3.png" />
     <Content Include="Assets\PapaBob.png" />
     <Content Include="Assets\Thumbs.db" />
     <None Include="Web.Debug.config">
