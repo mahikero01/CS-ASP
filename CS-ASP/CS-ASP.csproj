@@ -72,6 +72,7 @@
     <Content Include="Assets\phone.png" />
     <Content Include="Assets\tablet.png" />
     <Content Include="ChallengeConditionalRadioButton.aspx" />
+    <Content Include="ChallengeDaysBetweenDates.aspx" />
     <Content Include="ChallengeFirstPapaBobsWebsite.aspx" />
     <Content Include="ChallengeSimpleCalculator.aspx" />
     <Content Include="CheatSheet.txt" />
@@ -91,6 +92,13 @@
     </Compile>
     <Compile Include="ChallengeConditionalRadioButton.aspx.designer.cs">
       <DependentUpon>ChallengeConditionalRadioButton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChallengeDaysBetweenDates.aspx.cs">
+      <DependentUpon>ChallengeDaysBetweenDates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChallengeDaysBetweenDates.aspx.designer.cs">
+      <DependentUpon>ChallengeDaysBetweenDates.aspx</DependentUpon>
     </Compile>
     <Compile Include="ChallengeFirstPapaBobsWebsite.aspx.cs">
       <DependentUpon>ChallengeFirstPapaBobsWebsite.aspx</DependentUpon>
