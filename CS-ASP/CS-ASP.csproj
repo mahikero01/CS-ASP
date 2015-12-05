@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -78,6 +79,7 @@
     <Content Include="Assets\tablet.png" />
     <Content Include="ChallengeConditionalRadioButton.aspx" />
     <Content Include="ChallengeDaysBetweenDates.aspx" />
+    <Content Include="ChallengeEpicSpiesAssignment.aspx" />
     <Content Include="ChallengeFirstPapaBobsWebsite.aspx" />
     <Content Include="ChallengeSimpleCalculator.aspx" />
     <Content Include="CheatSheet.txt" />
@@ -104,6 +106,13 @@
     </Compile>
     <Compile Include="ChallengeDaysBetweenDates.aspx.designer.cs">
       <DependentUpon>ChallengeDaysBetweenDates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChallengeEpicSpiesAssignment.aspx.cs">
+      <DependentUpon>ChallengeEpicSpiesAssignment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChallengeEpicSpiesAssignment.aspx.designer.cs">
+      <DependentUpon>ChallengeEpicSpiesAssignment.aspx</DependentUpon>
     </Compile>
     <Compile Include="ChallengeFirstPapaBobsWebsite.aspx.cs">
       <DependentUpon>ChallengeFirstPapaBobsWebsite.aspx</DependentUpon>
