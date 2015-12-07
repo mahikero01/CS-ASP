@@ -4,3 +4,9 @@ P:\SandBox\CS-ASP\CS-ASP\bin\CS-ASP.pdb
 P:\SandBox\CS-ASP\CS-ASP\obj\Debug\CS-ASP.csprojResolveAssemblyReference.cache
 P:\SandBox\CS-ASP\CS-ASP\obj\Debug\CS-ASP.dll
 P:\SandBox\CS-ASP\CS-ASP\obj\Debug\CS-ASP.pdb
+C:\Users\Mahikero01\Documents\SandBox\CS-ASP\CS-ASP\bin\CS-ASP.dll.config
+C:\Users\Mahikero01\Documents\SandBox\CS-ASP\CS-ASP\bin\CS-ASP.dll
+C:\Users\Mahikero01\Documents\SandBox\CS-ASP\CS-ASP\bin\CS-ASP.pdb
+C:\Users\Mahikero01\Documents\SandBox\CS-ASP\CS-ASP\obj\Debug\CS-ASP.csprojResolveAssemblyReference.cache
+C:\Users\Mahikero01\Documents\SandBox\CS-ASP\CS-ASP\obj\Debug\CS-ASP.dll
+C:\Users\Mahikero01\Documents\SandBox\CS-ASP\CS-ASP\obj\Debug\CS-ASP.pdb

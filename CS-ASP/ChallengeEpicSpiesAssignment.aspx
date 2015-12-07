@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChallengeEpicSpiesAssignment.aspx.cs" Inherits="CS_ASP.ChallengeEpicSpiesAssignment" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChallengeEpicSpiesAssignment.aspx.cs" Inherits="CS_ASP.ChallengeEpicSpiesAssignment" MaintainScrollPositionOnPostback="true" %>
 
 <!DOCTYPE html>
 
@@ -59,7 +59,7 @@
         <p>
             &nbsp;</p>
         <p>
-            <asp:Button ID="assignSpyButton" runat="server" Text="Assign Spy" />
+            <asp:Button ID="assignSpyButton" runat="server" Text="Assign Spy" OnClick="assignSpyButton_Click" />
         </p>
         <p>
             &nbsp;</p>
